@@ -1159,7 +1159,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #52544a;
+  background: #698574;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1505,6 +1505,11 @@ pre .javascript .function {
   }
 }
 .post-body {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
   overflow-wrap: break-word;
   word-wrap: break-word;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
