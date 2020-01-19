@@ -25,7 +25,7 @@
     scheme: 'Muse',
     version: '7.5.0',
     exturl: false,
-    sidebar: {"position":"left","display":"hide","offset":12,"onmobile":false},
+    sidebar: {"position":"left","display":"hide","offset":12,"onmobile":true},
     copycode: {"enable":true,"show_result":true,"style":"flat"},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
@@ -55,7 +55,7 @@
 <meta property="og:site_name" content="知足萍">
 <meta property="og:description" content="2020年1月11日00点32分熬夜学习。。。只是简单的照着网页，改主题，那你看懂怎么改的了嘛？偶能带自己写  2020年1月18日20点05分 进阶版Live2D看板娘搞了一晚上终于配置好了(1)若只想cp网上的：在&#x2F;themes&#x2F;next&#x2F;layout&#x2F;layout.swig中123&amp;lt;head&amp;gt;&amp;lt;script src=&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;np">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-01-18T17:08:57.007Z">
+<meta property="og:updated_time" content="2020-01-19T15:30:05.687Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://zhizuping.github.io/2020/01/05/mydaily/">
@@ -246,7 +246,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-01-19 01:08:57" itemprop="dateModified" datetime="2020-01-19T01:08:57+08:00">2020-01-19</time>
+                <time title="修改时间：2020-01-19 23:30:05" itemprop="dateModified" datetime="2020-01-19T23:30:05+08:00">2020-01-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -273,7 +273,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.4k</span>
+              <span>1.5k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -302,9 +302,11 @@
 改为<figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const live2d_path = <span class="string">"/lib/live2d-widget-master/"</span><span class="comment">;</span></span><br></pre></td></tr></table></figure>
 在/themes/next/layout/layout.swig中<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"</span>/&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://zhizuping.github.io/lib/live2d-widget-master/autoload.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
 上传到github才能生效<br>在主题配置文件_config.yml 中,新增如下内容：<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">live2d:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-更改位置waifu.css：<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#waifu</span> &#123;</span><br><span class="line">	<span class="attribute">bottom</span>: -<span class="number">1000px</span>;</span><br><span class="line">	<span class="attribute">right</span>: <span class="number">30px</span>;</span><br><span class="line">	<span class="attribute">line-height</span>: <span class="number">0</span>;</span><br><span class="line">	<span class="attribute">position</span>: fixed;</span><br><span class="line">	<span class="attribute">transform</span>: <span class="built_in">translateY</span>(3px);</span><br><span class="line">	<span class="attribute">transition</span>: transform .<span class="number">3s</span> ease-in-out, bottom <span class="number">3s</span> ease-in-out;</span><br><span class="line">	<span class="attribute">z-index</span>: <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+更改位置waifu.css：<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#waifu</span> &#123;</span><br><span class="line">	<span class="attribute">bottom</span>: -<span class="number">1000px</span>;</span><br><span class="line">	<span class="attribute">right</span>: <span class="number">30px</span>;</span><br><span class="line">	<span class="attribute">line-height</span>: <span class="number">0</span>;</span><br><span class="line">	<span class="attribute">position</span>: fixed;</span><br><span class="line">	<span class="attribute">transform</span>: <span class="built_in">translateY</span>(3px);</span><br><span class="line">	<span class="attribute">transition</span>: transform .<span class="number">3s</span> ease-in-out, bottom <span class="number">3s</span> ease-in-out;</span><br><span class="line">	<span class="attribute">z-index</span>: <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><a href="https://www.cnblogs.com/aoguai/p/11481253.html" target="_blank" rel="noopener">Next v7.X 主题升级,美化</a></li>
 </ol>
+<hr>
+<h1 id="2020年1月19日23点24分"><a href="#2020年1月19日23点24分" class="headerlink" title="2020年1月19日23点24分"></a>2020年1月19日23点24分</h1><p>今天是Huawei第一次年会：吃饭！抽奖（NULL）<br>😴</p>
 <hr>
 
     </div>
@@ -410,7 +412,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2020年1月11日00点32分"><span class="nav-number">1.</span> <span class="nav-text">2020年1月11日00点32分</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2020年1月18日20点05分"><span class="nav-number">2.</span> <span class="nav-text">2020年1月18日20点05分</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2020年1月11日00点32分"><span class="nav-number">1.</span> <span class="nav-text">2020年1月11日00点32分</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2020年1月18日20点05分"><span class="nav-number">2.</span> <span class="nav-text">2020年1月18日20点05分</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2020年1月19日23点24分"><span class="nav-number">3.</span> <span class="nav-text">2020年1月19日23点24分</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -516,7 +518,7 @@
         <i class="fa fa-user"></i>
       </span>
       <span class="site-uv" title="总访客量">
-        &nbsp;本站访客数&nbsp;<span class="busuanzi-value"  id="busuanzi_value_site_uv"></span>人
+        &nbsp;访客数&nbsp;<span class="busuanzi-value"  id="busuanzi_value_site_uv"></span>头
       </span>
     </span>
     <span class="post-meta-divider">|</span>
@@ -525,7 +527,7 @@
         <i class="fa fa-eye"></i>
       </span>
       <span class="site-pv" title="总访问量">
-        &nbsp;本站总访问量&nbsp;<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次
+        &nbsp;访问量&nbsp;<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次
       </span>
     </span>
 </div>
