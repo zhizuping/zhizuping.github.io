@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhizuping.github.io/"/>
-  <updated>2020-02-03T12:16:46.442Z</updated>
+  <updated>2020-02-09T14:30:15.754Z</updated>
   <id>http://zhizuping.github.io/</id>
   
   <author>
@@ -17,13 +17,93 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MYDAILY</title>
-    <link href="http://zhizuping.github.io/2020/01/05/mydaily/"/>
-    <id>http://zhizuping.github.io/2020/01/05/mydaily/</id>
-    <published>2020-01-05T15:59:31.000Z</published>
-    <updated>2020-02-03T12:16:46.442Z</updated>
+    <title>PS-抠图</title>
+    <link href="http://zhizuping.github.io/2020/02/09/ps/ps_0/"/>
+    <id>http://zhizuping.github.io/2020/02/09/ps/ps_0/</id>
+    <published>2020-02-09T07:55:26.000Z</published>
+    <updated>2020-02-09T14:30:15.754Z</updated>
     
-    <content type="html"><![CDATA[<hr><h1 id="2020年1月11日00点32分"><a href="#2020年1月11日00点32分" class="headerlink" title="2020年1月11日00点32分"></a>2020年1月11日00点32分</h1><p>熬夜学习。。。<br>只是简单的照着网页，改主题，那你看懂怎么改的了嘛？<br>偶能带自己写</p><hr><h1 id="2020年1月18日20点05分"><a href="#2020年1月18日20点05分" class="headerlink" title="2020年1月18日20点05分"></a>2020年1月18日20点05分</h1><p>看板娘<br>搞了一晚上终于完了</p><hr><h1 id="2020年1月19日23点24分"><a href="#2020年1月19日23点24分" class="headerlink" title="2020年1月19日23点24分"></a>2020年1月19日23点24分</h1><p>今天是Huawei第一次年会：吃饭！抽奖（NULL）<br>😴</p><hr><h1 id="2020年2月3日19点46分"><a href="#2020年2月3日19点46分" class="headerlink" title="2020年2月3日19点46分"></a>2020年2月3日19点46分</h1><p>在家隔离办公第一天，生物钟没调过来，睡了一下午。<br>整理之前next学习，下一步开始新的学习–微信小程序制作–mynamewiki</p><hr>]]></content>
+    <content type="html"><![CDATA[<p>1、选择与背景相差大的通道，一般来说红通道最为理想<br>2、创建色阶调整图层，大幅增加明暗对比，边缘较暗就调亮，细节多创建n次（先选区然后创建，再可以用画笔修）<br>3、选中区域，填充背景<br>4、创建色阶调整图层，增加高光及中间调亮度。如果边缘还有残留背景，重复上面的方法去除背景。<br>5、新建一个图层，按Ctrl + Alt + Shift + E 盖印图层<br>6、新建纯色背景图层<br>7、给背景副本图层添加图层蒙版,加入盖印图层。<br>8、把背景图层复制一层，然后置顶，用钢笔勾出主体部分选区，然后添加蒙版<br><a href="https://www.jb51.net/photoshop/570735.html" target="_blank" rel="noopener">通道、调色 选区</a><br><a href="http://www.psahz.com/pskoutu/20848.html" target="_blank" rel="noopener">小松鼠的实例</a></p><p>另一种快速的方法，<a href="https://jingyan.baidu.com/article/86fae3460eaadb3c49121a35.html" target="_blank" rel="noopener">动物毛发</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、选择与背景相差大的通道，一般来说红通道最为理想&lt;br&gt;2、创建色阶调整图层，大幅增加明暗对比，边缘较暗就调亮，细节多创建n次（先选区然后创建，再可以用画笔修）&lt;br&gt;3、选中区域，填充背景&lt;br&gt;4、创建色阶调整图层，增加高光及中间调亮度。如果边缘还有残留背景，重复上面
+      
+    
+    </summary>
+    
+    
+      <category term="study" scheme="http://zhizuping.github.io/categories/study/"/>
+    
+    
+      <category term="ps" scheme="http://zhizuping.github.io/tags/ps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS-图片合成</title>
+    <link href="http://zhizuping.github.io/2020/02/09/ps/ps_1/"/>
+    <id>http://zhizuping.github.io/2020/02/09/ps/ps_1/</id>
+    <published>2020-02-09T07:55:26.000Z</published>
+    <updated>2020-02-09T08:09:03.592Z</updated>
+    
+    <content type="html"><![CDATA[<p>图片合成</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;图片合成&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="study" scheme="http://zhizuping.github.io/categories/study/"/>
+    
+    
+      <category term="ps" scheme="http://zhizuping.github.io/tags/ps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS-文字特效</title>
+    <link href="http://zhizuping.github.io/2020/02/09/ps/ps_2/"/>
+    <id>http://zhizuping.github.io/2020/02/09/ps/ps_2/</id>
+    <published>2020-02-09T07:55:26.000Z</published>
+    <updated>2020-02-09T08:09:11.534Z</updated>
+    
+    <content type="html"><![CDATA[<p>文字特效</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;文字特效&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="study" scheme="http://zhizuping.github.io/categories/study/"/>
+    
+    
+      <category term="ps" scheme="http://zhizuping.github.io/tags/ps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MYDAILY</title>
+    <link href="http://zhizuping.github.io/2020/01/05/mydaily/mydaily/"/>
+    <id>http://zhizuping.github.io/2020/01/05/mydaily/mydaily/</id>
+    <published>2020-01-05T15:59:31.000Z</published>
+    <updated>2020-02-13T11:25:53.115Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h1 id="2020年1月11日00点32分"><a href="#2020年1月11日00点32分" class="headerlink" title="2020年1月11日00点32分"></a>2020年1月11日00点32分</h1><p>熬夜学习。。。<br>只是简单的照着网页，改主题，那你看懂怎么改的了嘛？<br>偶能带自己写</p><hr><h1 id="2020年1月18日20点05分"><a href="#2020年1月18日20点05分" class="headerlink" title="2020年1月18日20点05分"></a>2020年1月18日20点05分</h1><p>看板娘<br>搞了一晚上终于完了</p><hr><h1 id="2020年1月19日23点24分"><a href="#2020年1月19日23点24分" class="headerlink" title="2020年1月19日23点24分"></a>2020年1月19日23点24分</h1><p>今天是Huawei第一次年会：吃饭！抽奖（NULL）<br>😴</p><hr><h1 id="2020年2月3日19点46分"><a href="#2020年2月3日19点46分" class="headerlink" title="2020年2月3日19点46分"></a>2020年2月3日19点46分</h1><p>在家隔离办公第一天，生物钟没调过来，睡了一下午。<br>整理之前next学习，下一步开始新的学习–微信小程序制作–mynamewiki</p><hr><h1 id="2020年2月8日16点55分"><a href="#2020年2月8日16点55分" class="headerlink" title="2020年2月8日16点55分"></a>2020年2月8日16点55分</h1><p>在家隔离办公最后一天，出去采购，一下子买多了。沉死了<br>啥也没干</p><hr><h1 id="2020年2月9日15点48分"><a href="#2020年2月9日15点48分" class="headerlink" title="2020年2月9日15点48分"></a>2020年2月9日15点48分</h1><p>明天就上班了，准备开始写jl。<br>ps抠图学习、图片合成、文字特效；wx；算法！！</p><hr><h1 id="2020年2月13日19点23分"><a href="#2020年2月13日19点23分" class="headerlink" title="2020年2月13日19点23分"></a>2020年2月13日19点23分</h1><p>任务：hx的ps；一道算法；jl2个；安装配置好idea<br>吃饱了</p><hr>]]></content>
     
     <summary type="html">
     
@@ -50,7 +130,7 @@
     <published>2019-11-04T14:48:56.969Z</published>
     <updated>2020-01-18T17:09:01.674Z</updated>
     
-    <content type="html"><![CDATA[<div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">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</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">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</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
